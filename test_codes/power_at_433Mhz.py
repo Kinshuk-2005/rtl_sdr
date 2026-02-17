@@ -6,7 +6,7 @@ from rtlsdr import RtlSdr
 import time
 
 # --- Settings ---
-TARGET_FREQ = 433.92e6
+TARGET_FREQ = 433.92e6 # Change the frequency as per your need (make sure entered frequency is within rtl-sdr range)
 SAMPLE_RATE = 2.048e6
 GAIN = 20
 WINDOW_SIZE = 10  # Seconds to show on screen
